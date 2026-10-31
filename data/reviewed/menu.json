@@ -1,0 +1,1560 @@
+{
+ "_meta": {
+  "note": "Human-reviewed seed data. Every number has a source and checked date. Unknown = null, never 0. Prices are branch-specific pickup prices; never show one branch's price as another's.",
+  "reviewer": "maintainer",
+  "version": "2026-10-30-top5"
+ },
+ "branches": [
+  {
+   "address": "530 East Warren, Detroit, MI 48201",
+   "city": "Detroit",
+   "id": "lc-detroit-40",
+   "official_url": "https://littlecaesars.com/en-us/store/40/",
+   "restaurant_id": "little-caesars",
+   "state": "MI",
+   "timezone": "America/Detroit",
+   "zip": "48201"
+  },
+  {
+   "address": "2603 Fulton St Suite A, Houston, TX 77009",
+   "city": "Houston",
+   "id": "lc-houston-811",
+   "official_url": "https://littlecaesars.com/en-us/store/811/",
+   "restaurant_id": "little-caesars",
+   "state": "TX",
+   "timezone": "America/Chicago",
+   "zip": "77009"
+  },
+  {
+   "id": "tb-houston-2093taylor",
+   "restaurant_id": "taco-bell",
+   "address": "2093 Taylor Street, Houston, TX 77007",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77007",
+   "timezone": "America/Chicago",
+   "official_url": "https://locations.tacobell.com/tx/houston/2093-taylor-street.html"
+  },
+  {
+   "id": "w-houston-210patton",
+   "restaurant_id": "wendys",
+   "address": "210 Patton Street, Houston, TX 77009",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77009",
+   "timezone": "America/Chicago",
+   "official_url": "https://order.wendys.com/us/en/menu"
+  }
+ ],
+ "menu_items": [
+  {
+   "category": "pizza",
+   "id": "lc-classic-cheese",
+   "name": "Classic Cheese",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-classic-pepperoni",
+   "name": "Classic Pepperoni",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-emb-cheese",
+   "name": "ExtraMostBestest Cheese",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-emb-pepperoni",
+   "name": "ExtraMostBestest Pepperoni",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-thin-cheese",
+   "name": "Thin Crust Cheese",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-thin-pepperoni",
+   "name": "Thin Crust Pepperoni",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-deepdish-cheese",
+   "name": "Detroit-Style Deep Dish Cheese",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-hula",
+   "name": "Hula Hawaiian",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-3mt",
+   "name": "3 Meat Treat",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-supreme",
+   "name": "Ultimate Supreme",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-fanceroni",
+   "name": "Old World Fanceroni Pepperoni",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "bread",
+   "id": "lc-crazybread",
+   "name": "Crazy Bread (8 sticks)",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole order",
+   "size": "8 sticks"
+  },
+  {
+   "category": "bread",
+   "id": "lc-cheesebread",
+   "name": "Italian Cheese Bread (10 pieces)",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole order",
+   "size": "10 pieces"
+  },
+  {
+   "category": "bread",
+   "id": "lc-crazycombo",
+   "name": "Crazy Combo",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole order",
+   "size": "combo"
+  },
+  {
+   "category": "wings",
+   "id": "lc-wings",
+   "name": "Caesar Wings (8 pc)",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole order",
+   "size": "8 pieces"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-pep-cs",
+   "name": "Pretzel Crust Pepperoni with Cheese Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-pep-ps",
+   "name": "Pretzel Crust Pepperoni with Pizza Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-chz-cs",
+   "name": "Pretzel Crust Cheese with Cheese Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-chz-ps",
+   "name": "Pretzel Crust Cheese with Pizza Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-stf-pep-cs",
+   "name": "Stuffed Pretzel Crust Pepperoni with Cheese Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-stf-pep-ps",
+   "name": "Stuffed Pretzel Crust Pepperoni with Pizza Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-stf-chz-cs",
+   "name": "Stuffed Pretzel Crust Cheese with Cheese Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "category": "pizza",
+   "id": "lc-prz-stf-chz-ps",
+   "name": "Stuffed Pretzel Crust Cheese with Pizza Sauce",
+   "restaurant_id": "little-caesars",
+   "serving_basis": "whole",
+   "size": "Large"
+  },
+  {
+   "id": "tb-crunchy-taco",
+   "restaurant_id": "taco-bell",
+   "name": "Crunchy Taco",
+   "category": "tacos",
+   "size": "1 taco",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-soft-taco",
+   "restaurant_id": "taco-bell",
+   "name": "Soft Taco",
+   "category": "tacos",
+   "size": "1 taco",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-crunchy-taco-sup",
+   "restaurant_id": "taco-bell",
+   "name": "Crunchy Taco Supreme",
+   "category": "tacos",
+   "size": "1 taco",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-soft-taco-sup",
+   "restaurant_id": "taco-bell",
+   "name": "Soft Taco Supreme",
+   "category": "tacos",
+   "size": "1 taco",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-spicy-potato-taco",
+   "restaurant_id": "taco-bell",
+   "name": "Spicy Potato Soft Taco",
+   "category": "tacos",
+   "size": "1 taco",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-burrito-sup",
+   "restaurant_id": "taco-bell",
+   "name": "Burrito Supreme",
+   "category": "burritos",
+   "size": "1 burrito",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-bean-burrito",
+   "restaurant_id": "taco-bell",
+   "name": "Bean Burrito",
+   "category": "burritos",
+   "size": "1 burrito",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-crunchwrap-sup",
+   "restaurant_id": "taco-bell",
+   "name": "Crunchwrap Supreme",
+   "category": "specialties",
+   "size": "1 wrap",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-chalupa-sup",
+   "restaurant_id": "taco-bell",
+   "name": "Chalupa Supreme",
+   "category": "specialties",
+   "size": "1 chalupa",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-chicken-quesadilla",
+   "restaurant_id": "taco-bell",
+   "name": "Chicken Quesadilla",
+   "category": "quesadillas",
+   "size": "1 quesadilla",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-nachos-bellgrande",
+   "restaurant_id": "taco-bell",
+   "name": "Nachos BellGrande",
+   "category": "nachos",
+   "size": "1 order",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "tb-mexican-pizza",
+   "restaurant_id": "taco-bell",
+   "name": "Mexican Pizza",
+   "category": "specialties",
+   "size": "1 pizza",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "tb-cinnamon-twists",
+   "restaurant_id": "taco-bell",
+   "name": "Cinnamon Twists",
+   "category": "snacks",
+   "size": "1 order",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "tb-pepsi-lg",
+   "restaurant_id": "taco-bell",
+   "name": "Pepsi (large)",
+   "category": "drinks",
+   "size": "large",
+   "serving_basis": "large"
+  },
+  {
+   "id": "tb-mtndew-lg",
+   "restaurant_id": "taco-bell",
+   "name": "MTN DEW (large)",
+   "category": "drinks",
+   "size": "large",
+   "serving_basis": "large"
+  },
+  {
+   "id": "w-daves-single",
+   "restaurant_id": "wendys",
+   "name": "Dave's Single",
+   "category": "burgers",
+   "size": "1 burger",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-daves-double",
+   "restaurant_id": "wendys",
+   "name": "Dave's Double",
+   "category": "burgers",
+   "size": "1 burger",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-daves-triple",
+   "restaurant_id": "wendys",
+   "name": "Dave's Triple",
+   "category": "burgers",
+   "size": "1 burger",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-baconator",
+   "restaurant_id": "wendys",
+   "name": "Baconator",
+   "category": "burgers",
+   "size": "1 burger",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-son-baconator",
+   "restaurant_id": "wendys",
+   "name": "Son of Baconator",
+   "category": "burgers",
+   "size": "1 burger",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-spicy-chicken",
+   "restaurant_id": "wendys",
+   "name": "Spicy Chicken Sandwich",
+   "category": "chicken",
+   "size": "1 sandwich",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-classic-chicken",
+   "restaurant_id": "wendys",
+   "name": "Classic Chicken Sandwich",
+   "category": "chicken",
+   "size": "1 sandwich",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-crispy-chicken",
+   "restaurant_id": "wendys",
+   "name": "Crispy Chicken Sandwich",
+   "category": "chicken",
+   "size": "1 sandwich",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-nuggets-10",
+   "restaurant_id": "wendys",
+   "name": "10 PC. Chicken Nuggets",
+   "category": "nuggets",
+   "size": "10 pieces",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "w-spicy-nuggets-10",
+   "restaurant_id": "wendys",
+   "name": "10 PC. Spicy Chicken Nuggets",
+   "category": "nuggets",
+   "size": "10 pieces",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "w-fries-md",
+   "restaurant_id": "wendys",
+   "name": "Medium Natural-Cut Fries",
+   "category": "sides",
+   "size": "medium",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "w-frosty-sm",
+   "restaurant_id": "wendys",
+   "name": "Small Classic Chocolate Frosty",
+   "category": "dessert",
+   "size": "small",
+   "serving_basis": "whole order"
+  },
+  {
+   "id": "w-baked-potato",
+   "restaurant_id": "wendys",
+   "name": "Plain Baked Potato",
+   "category": "sides",
+   "size": "1 potato",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-baked-potato-sc",
+   "restaurant_id": "wendys",
+   "name": "Sour Cream and Chive Baked Potato",
+   "category": "sides",
+   "size": "1 potato",
+   "serving_basis": "whole"
+  },
+  {
+   "id": "w-coke",
+   "restaurant_id": "wendys",
+   "name": "Coca-Cola (soft drink)",
+   "category": "drinks",
+   "size": "varies",
+   "serving_basis": "varies by size"
+  }
+ ],
+ "modifiers": [
+  {
+   "branch_id": "lc-detroit-40",
+   "charge_cents": 100,
+   "id": "mod-crazy-sauce",
+   "item_id": "lc-crazybread",
+   "name": "Crazy Sauce (1 cup)",
+   "rule": "optional add-on"
+  }
+ ],
+ "nutrition": [
+  {
+   "calories": 1950,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-cheese",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2300,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-pepperoni",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2220,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-cheese",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2500,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-pepperoni",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 1980,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-cheese",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2130,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-pepperoni",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2500,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-deepdish-cheese",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2180,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-hula",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2870,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-3mt",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2510,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-supreme",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 3020,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-fanceroni",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 800,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazybread",
+   "serving_basis": "8 sticks",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 1340,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-cheesebread",
+   "serving_basis": "10 pieces",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 840,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazycombo",
+   "serving_basis": "whole order",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": null,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-wings",
+   "serving_basis": "8 pieces",
+   "source_id": "src-lc-nutrition"
+  },
+  {
+   "calories": 2190,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-cs",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 2080,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-ps",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 1940,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-cs",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 1830,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-ps",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 2660,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-cs",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 2560,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-ps",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 2400,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-cs",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "calories": 2290,
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-ps",
+   "serving_basis": "whole pizza",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "item_id": "tb-crunchy-taco",
+   "variant": "",
+   "calories": 170,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-soft-taco",
+   "variant": "",
+   "calories": 180,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-crunchy-taco-sup",
+   "variant": "",
+   "calories": 190,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-soft-taco-sup",
+   "variant": "",
+   "calories": 200,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-spicy-potato-taco",
+   "variant": "",
+   "calories": 240,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-burrito-sup",
+   "variant": "",
+   "calories": 390,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-bean-burrito",
+   "variant": "",
+   "calories": 360,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-crunchwrap-sup",
+   "variant": "",
+   "calories": 530,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-chalupa-sup",
+   "variant": "",
+   "calories": 350,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-chicken-quesadilla",
+   "variant": "",
+   "calories": 490,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-nachos-bellgrande",
+   "variant": "",
+   "calories": 730,
+   "serving_basis": "whole order",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-mexican-pizza",
+   "variant": "",
+   "calories": 530,
+   "serving_basis": "whole",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-cinnamon-twists",
+   "variant": "",
+   "calories": 170,
+   "serving_basis": "whole order",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-pepsi-lg",
+   "variant": "",
+   "calories": 380,
+   "serving_basis": "large",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "tb-mtndew-lg",
+   "variant": "",
+   "calories": 420,
+   "serving_basis": "large",
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-daves-single",
+   "variant": "",
+   "calories": 560,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-daves-double",
+   "variant": "",
+   "calories": 810,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-daves-triple",
+   "variant": "",
+   "calories": 1100,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-baconator",
+   "variant": "",
+   "calories": 890,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-son-baconator",
+   "variant": "",
+   "calories": 590,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-spicy-chicken",
+   "variant": "",
+   "calories": 560,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-classic-chicken",
+   "variant": "",
+   "calories": 550,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-crispy-chicken",
+   "variant": "",
+   "calories": 340,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-nuggets-10",
+   "variant": "",
+   "calories": 430,
+   "serving_basis": "whole order",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-spicy-nuggets-10",
+   "variant": "",
+   "calories": 470,
+   "serving_basis": "whole order",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-fries-md",
+   "variant": "",
+   "calories": 350,
+   "serving_basis": "whole order",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-frosty-sm",
+   "variant": "",
+   "calories": 310,
+   "serving_basis": "whole order",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-baked-potato",
+   "variant": "",
+   "calories": 270,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-baked-potato-sc",
+   "variant": "",
+   "calories": 300,
+   "serving_basis": "whole",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "item_id": "w-coke",
+   "variant": "",
+   "calories": null,
+   "serving_basis": "varies by size",
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  }
+ ],
+ "price_snapshots": [
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 649,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-cheese",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 649,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-pepperoni",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-cheese",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-pepperoni",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 799,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-cheese",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 839,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-pepperoni",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 1050,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-deepdish-cheese",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 825,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-hula",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 899,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-3mt",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 1099,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-supreme",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 1099,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-fanceroni",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 349,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazybread",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 449,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-cheesebread",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 399,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazycombo",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 799,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-wings",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-cs",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-ps",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-cs",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-ps",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-cs",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-ps",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-cs",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-detroit-40",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-ps",
+   "source_id": "src-lc-menu-detroit-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 599,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-cheese",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 599,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-classic-pepperoni",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-cheese",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-emb-pepperoni",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-cheese",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 749,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-thin-pepperoni",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 1000,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-deepdish-cheese",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 825,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-hula",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 899,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-3mt",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 1050,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-supreme",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 1099,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-fanceroni",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 325,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazybread",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 450,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-cheesebread",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 399,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-crazycombo",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 799,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-wings",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-cs",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-pep-ps",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-cs",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 699,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-chz-ps",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-cs",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-pep-ps",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-cs",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "lc-houston-811",
+   "cents": 999,
+   "channel": "pickup",
+   "checked_at": "2026-10-30",
+   "item_id": "lc-prz-stf-chz-ps",
+   "source_id": "src-lc-menu-houston-20261030"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-crunchy-taco",
+   "channel": "pickup",
+   "cents": 189,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-soft-taco",
+   "channel": "pickup",
+   "cents": 189,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-crunchy-taco-sup",
+   "channel": "pickup",
+   "cents": 289,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-soft-taco-sup",
+   "channel": "pickup",
+   "cents": 289,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-spicy-potato-taco",
+   "channel": "pickup",
+   "cents": 139,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-burrito-sup",
+   "channel": "pickup",
+   "cents": 599,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-bean-burrito",
+   "channel": "pickup",
+   "cents": 189,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-crunchwrap-sup",
+   "channel": "pickup",
+   "cents": 699,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-chalupa-sup",
+   "channel": "pickup",
+   "cents": 579,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-chicken-quesadilla",
+   "channel": "pickup",
+   "cents": 679,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-nachos-bellgrande",
+   "channel": "pickup",
+   "cents": 699,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-mexican-pizza",
+   "channel": "pickup",
+   "cents": 659,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-cinnamon-twists",
+   "channel": "pickup",
+   "cents": 159,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-pepsi-lg",
+   "channel": "pickup",
+   "cents": 319,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "tb-houston-2093taylor",
+   "item_id": "tb-mtndew-lg",
+   "channel": "pickup",
+   "cents": 319,
+   "source_id": "src-tb-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-daves-single",
+   "channel": "pickup",
+   "cents": 679,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-daves-double",
+   "channel": "pickup",
+   "cents": 799,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-daves-triple",
+   "channel": "pickup",
+   "cents": 919,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-baconator",
+   "channel": "pickup",
+   "cents": 899,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-son-baconator",
+   "channel": "pickup",
+   "cents": 729,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-spicy-chicken",
+   "channel": "pickup",
+   "cents": 719,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-classic-chicken",
+   "channel": "pickup",
+   "cents": 719,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-crispy-chicken",
+   "channel": "pickup",
+   "cents": 329,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-nuggets-10",
+   "channel": "pickup",
+   "cents": 579,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-spicy-nuggets-10",
+   "channel": "pickup",
+   "cents": 579,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-fries-md",
+   "channel": "pickup",
+   "cents": 389,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-frosty-sm",
+   "channel": "pickup",
+   "cents": 329,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-baked-potato",
+   "channel": "pickup",
+   "cents": 319,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-baked-potato-sc",
+   "channel": "pickup",
+   "cents": 349,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  },
+  {
+   "branch_id": "w-houston-210patton",
+   "item_id": "w-coke",
+   "channel": "pickup",
+   "cents": null,
+   "source_id": "src-wendys-menu-houston-20261030",
+   "checked_at": "2026-10-30"
+  }
+ ],
+ "restaurants": [
+  {
+   "category": "pizza",
+   "id": "little-caesars",
+   "name": "Little Caesars",
+   "official_url": "https://littlecaesars.com"
+  },
+  {
+   "id": "taco-bell",
+   "name": "Taco Bell",
+   "category": "mexican",
+   "official_url": "https://www.tacobell.com"
+  },
+  {
+   "id": "wendys",
+   "name": "Wendy's",
+   "category": "burgers",
+   "official_url": "https://www.wendys.com"
+  }
+ ],
+ "sources": [
+  {
+   "checked_at": "2026-10-30",
+   "id": "src-lc-menu-detroit-20261030",
+   "note": "Detroit 530 East Warren pickup menu, re-checked 2026-10-30. Changes vs 2026-10-09: Classic Cheese $5.49 -> $6.49, EMB Pepperoni $8.49 -> $7.49. Pretzel items added with live-menu calories.",
+   "reviewer": "maintainer",
+   "type": "ordering_menu",
+   "url": "https://order.littlecaesars.com/en-us/order/pickup/stores/40/menu/"
+  },
+  {
+   "checked_at": "2026-10-30",
+   "id": "src-lc-menu-houston-20261030",
+   "note": "Houston 2603 Fulton St Suite A (store #811) pickup menu, first verified 2026-10-30. Branch address confirmed from official store page.",
+   "reviewer": "maintainer",
+   "type": "ordering_menu",
+   "url": "https://order.littlecaesars.com/en-us/order/pickup/stores/811/menu/"
+  },
+  {
+   "checked_at": "2026-10-09",
+   "id": "src-lc-nutrition",
+   "note": "Official 2026 US nutrition guide. Whole-item calories unless the serving basis says otherwise.",
+   "reviewer": "maintainer",
+   "type": "nutrition_pdf",
+   "url": "https://littlecaesars.com/static/usnutritionguide.pdf"
+  },
+  {
+   "id": "src-tb-menu-houston-20261030",
+   "url": "https://www.tacobell.com/food?store=027807",
+   "type": "ordering_menu",
+   "checked_at": "2026-10-30",
+   "reviewer": "maintainer",
+   "note": "Houston 2093 Taylor Street (store 027807) menu prices and calories."
+  },
+  {
+   "id": "src-wendys-menu-houston-20261030",
+   "url": "https://order.wendys.com/us/en/menu",
+   "type": "ordering_menu",
+   "checked_at": "2026-10-30",
+   "reviewer": "maintainer",
+   "note": "Houston 210 Patton Street carryout menu prices and calories."
+  }
+ ]
+}
