@@ -2,7 +2,7 @@
   "_meta": {
     "note": "Human-reviewed seed data. Every number has a source and checked date. Unknown = null, never 0. Prices are branch-specific pickup prices; never show one branch's price as another's.",
     "reviewer": "maintainer",
-    "version": "2026-10-31-kfc"
+    "version": "2026-10-31-cfa"
   },
   "branches": [
     {
@@ -54,6 +54,16 @@
       "zip": "77026",
       "timezone": "America/Chicago",
       "official_url": "https://www.kfc.com/"
+    },
+    {
+      "id": "cfa-houston-59kirby",
+      "restaurant_id": "chick-fil-a",
+      "address": "2715 Southwest Fwy, Houston, TX 77098",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77098",
+      "timezone": "America/Chicago",
+      "official_url": "https://www.chick-fil-a.com/"
     }
   ],
   "menu_items": [
@@ -600,6 +610,142 @@
       "category": "burgers",
       "size": null,
       "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-chicken-sandwich",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Chicken Sandwich",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-deluxe-sandwich",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Deluxe Sandwich",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-cw-sandwich-filet",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chicken & Waffles Sandwich w/ Chick-fil-A Filet",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-cw-sandwich-spicy",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chicken & Waffles Sandwich w/ Spicy Filet",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-cw-sandwich-grilled",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chicken & Waffles Sandwich w/ Grilled Filet",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-nuggets-8ct",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Nuggets",
+      "category": "nuggets",
+      "size": "8 ct",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-spicy-chicken-sandwich",
+      "restaurant_id": "chick-fil-a",
+      "name": "Spicy Chicken Sandwich",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-grilled-chicken-sandwich",
+      "restaurant_id": "chick-fil-a",
+      "name": "Grilled Chicken Sandwich",
+      "category": "burgers",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-waffle-fries-md",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Waffle Potato Fries",
+      "category": "sides",
+      "size": "Medium",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-mac-cheese-md",
+      "restaurant_id": "chick-fil-a",
+      "name": "Mac & Cheese",
+      "category": "sides",
+      "size": "Medium",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-lemonade-md",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Lemonade",
+      "category": "drinks",
+      "size": "Medium",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-cc-milkshake",
+      "restaurant_id": "chick-fil-a",
+      "name": "Cookies & Cream Milkshake",
+      "category": "dessert",
+      "size": "Small",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-chicken-biscuit",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chick-fil-A Chicken Biscuit",
+      "category": "chicken",
+      "size": null,
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-hash-browns-sm",
+      "restaurant_id": "chick-fil-a",
+      "name": "Hash Browns",
+      "category": "sides",
+      "size": "Small",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-choc-cookie",
+      "restaurant_id": "chick-fil-a",
+      "name": "Chocolate Chunk Cookie",
+      "category": "dessert",
+      "size": "1 ct",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-coca-cola-md",
+      "restaurant_id": "chick-fil-a",
+      "name": "Coca-Cola",
+      "category": "drinks",
+      "size": "Medium",
+      "serving_basis": "serving"
+    },
+    {
+      "id": "cfa-cobb-salad",
+      "restaurant_id": "chick-fil-a",
+      "name": "Cobb Salad w/ Nuggets",
+      "category": "salads",
+      "size": null,
+      "serving_basis": "serving"
     }
   ],
   "modifiers": [
@@ -1118,6 +1264,125 @@
       "serving_basis": "per serving",
       "checked_at": "2026-10-31",
       "source_id": "src-kfc-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-chicken-sandwich",
+      "calories": 420,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-deluxe-sandwich",
+      "calories": 490,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-cw-sandwich-filet",
+      "calories": 690,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-cw-sandwich-spicy",
+      "calories": 710,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-cw-sandwich-grilled",
+      "calories": 540,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-nuggets-8ct",
+      "calories": 250,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-spicy-chicken-sandwich",
+      "calories": 450,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-grilled-chicken-sandwich",
+      "calories": 390,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-waffle-fries-md",
+      "calories": 420,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-mac-cheese-md",
+      "calories": 450,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-lemonade-md",
+      "calories": 260,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-cc-milkshake",
+      "calories": 630,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-chicken-biscuit",
+      "calories": 460,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-hash-browns-sm",
+      "calories": 270,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-choc-cookie",
+      "calories": 370,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-coca-cola-md",
+      "calories": 170,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "item_id": "cfa-cobb-salad",
+      "calories": 830,
+      "serving_basis": "per serving",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
     }
   ],
   "price_snapshots": [
@@ -1848,6 +2113,142 @@
       "channel": "pickup",
       "checked_at": "2026-10-31",
       "source_id": "src-kfc-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-chicken-sandwich",
+      "cents": 509,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-deluxe-sandwich",
+      "cents": 589,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-cw-sandwich-filet",
+      "cents": 809,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-cw-sandwich-spicy",
+      "cents": 849,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-cw-sandwich-grilled",
+      "cents": 889,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-nuggets-8ct",
+      "cents": 519,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-spicy-chicken-sandwich",
+      "cents": 549,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-grilled-chicken-sandwich",
+      "cents": 665,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-waffle-fries-md",
+      "cents": 259,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-mac-cheese-md",
+      "cents": 419,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-lemonade-md",
+      "cents": 275,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-cc-milkshake",
+      "cents": 489,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-chicken-biscuit",
+      "cents": 379,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-hash-browns-sm",
+      "cents": 169,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-choc-cookie",
+      "cents": 175,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-coca-cola-md",
+      "cents": 235,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
+    },
+    {
+      "branch_id": "cfa-houston-59kirby",
+      "item_id": "cfa-cobb-salad",
+      "cents": 955,
+      "channel": "pickup",
+      "checked_at": "2026-10-31",
+      "source_id": "src-cfa-menu-houston-20261031"
     }
   ],
   "restaurants": [
@@ -1874,6 +2275,12 @@
       "name": "KFC",
       "category": "chicken",
       "official_url": "https://www.kfc.com"
+    },
+    {
+      "id": "chick-fil-a",
+      "name": "Chick-fil-A",
+      "category": "chicken",
+      "official_url": "https://www.chick-fil-a.com"
     }
   ],
   "sources": [
@@ -1924,6 +2331,14 @@
       "checked_at": "2026-10-31",
       "reviewer": "maintainer",
       "note": "KFC 4317 Lockwood Drive, Houston, TX 77026 pickup menu, verified 2026-10-31 via kfc.com ordering (store selected). Phone (346) 250-4525. Menu tiles show price only; calories read per item detail page as ranges across serving options, stored NULL (never guessed): Tender Go Bucket 585-690, Tenders Combo 3pc 820-1440, Big Box 5pc 1270-2230, Tenders Meal 8pc 2840-4300, Tenders Only 8pc 1560-1900, Kids 2pc 480-760, Sandwich 590-670, Fries 320-840, Slaw 170-640, Pepsi 250-810, Build-A-Bucket 8pc 2860-4400. Note: kfc.com ordering did not list the downtown store (2093 Taylor St, Houston TX 77007) - its direct page blank-redirected (soft block); nearest orderable store was Lockwood Drive."
+    },
+    {
+      "id": "src-cfa-menu-houston-20261031",
+      "type": "ordering_menu",
+      "url": "https://order.chick-fil-a.com/",
+      "checked_at": "2026-10-31",
+      "reviewer": "maintainer",
+      "note": "Chick-fil-A 59 & Kirby, 2715 Southwest Fwy, Houston, TX 77098 (order-site location 01801), Drive-thru pickup menu, verified 2026-10-31. Phone (713) 523-2442. Site shows prices only on individual product detail pages (one per item); 17 items verified at default configuration. Marketing pages show no prices ('Price and availability may vary by location'). A Cloudflare block on the order site's auth domain was encountered and cleared during verification."
     }
   ]
 }
